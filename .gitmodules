@@ -1,0 +1,3 @@
+[submodule "CenterNet"]
+	path = CenterNet
+	url = git://github.com/mrlzla/CenterNet.git
