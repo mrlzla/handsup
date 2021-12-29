@@ -20,7 +20,7 @@ if __name__ == '__main__':
     opt = parser.parse_args()
 
     with open(opt.stream_list) as f:
-        stream_paths = [x for x in f.read().split("\n") if x.startswith("rtsp")]
+        stream_paths = [x for x in f.read().split("\n") if x.startswith("rtsp")] # process only rtsp
     
     stream_processor = StreamProcessor(stream_paths, opt)
 
